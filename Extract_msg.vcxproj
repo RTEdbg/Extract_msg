@@ -151,7 +151,7 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy "x64\Release\Extract_msg.exe" c:\RTEdbg\UTIL\ /y &gt;nul</Command>
+      <Command>xcopy "x64\Release\Extract_msg.exe" c:\RTEdbg\UTIL\Extract_msg\ /y &gt;nul</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
